@@ -1,0 +1,236 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ul,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: 0;
+}
+body{
+	background: #eee;
+	font-size: 100%;
+}
+section,.nav{
+	background: #fff;
+}
+.wrap{
+	width: 95%;
+	margin: 0 auto;
+}
+.header{
+	background: #91d4da;
+	height: 5rem;
+}
+.header img{
+	height: 5rem;
+	float: left;
+}
+.header-back p{
+	line-height: 4rem;
+	font-size: 3rem;
+	color: #fff;
+	margin:0.6rem 0 0 0.6rem;
+	float: left;
+}  
+.header-title ,.nav-item{
+	text-align: center;
+	font-size: 3rem;
+	padding: 5px 0;
+	line-height: 4rem;
+	font-weight: 800;
+}
+.header-title{
+	color: #fff;
+}
+.nav{
+	display: flex;
+}
+.tab-item,.nav-item{ 
+	justify-content:center;
+	flex-grow: 1;
+}
+[class*='col-'] {
+	text-align: center;
+}
+.tab{
+	display: flex;
+	border-bottom: 2px solid #eee;
+	padding-top: 20px;
+}
+.tab-box {
+	width: 70%;
+	margin:0 auto;
+}
+.tab-item span{
+	font-size: 1.8rem;
+	display: block;
+	text-align: center;
+	line-height: 4rem;
+}
+.select{
+	border-bottom: 3px solid #91d4da; 
+}
+.col-ul{
+	display: flex;
+}
+.col-li{
+	margin-top: 1rem;
+	float: left;
+	padding: 1rem;
+	justify-content:center;
+	flex-grow: 1;
+	border-right: 2px solid #eee;
+}
+.col h3,h4{
+	line-height: 2rem;
+}
+.mod{
+	margin-top: 1rem;
+}
+.mod-title {
+	margin: 1.5rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #DFDFDF;
+}
+.mod-item{
+	padding: 1rem;
+	display: flex;	
+}
+.mod-img{
+	width: 40%;
+	border:.15rem solid #ffb633;
+}
+.item{
+	background: #eee;
+	flex-grow: 1;
+	margin: 0.5rem 0 0.5rem 1rem;
+	text-align: center;
+	padding-top: 1.5rem;
+	font-size: 1.8rem;
+}
+.mod-writing{
+	width: 48%;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: space-around;
+	display: flex;
+}
+.article{
+	margin-top:2rem; 
+}
+.article-item{
+	padding: 1.5rem;
+	border-bottom: .15rem solid #dfdfdf;
+	display: flex;
+}
+.article-img{
+	width: 35%;
+	padding: .5rem 0;
+}
+.content{
+	width: 60%;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	position: absolute;
+}
+.title{
+	font-size: 2rem;
+	min-height: 3rem;
+}
+.time{
+	position: absolute;
+	bottom: 0;
+	font-size: 2rem;
+	color: #c6c6c6;
+}
+.imgsBox{
+	display: flex;
+}
+.imgBox{
+	margin-right: .5rem;
+	flex-grow: 1;
+}
+.imgs-time{
+	font-size: 2rem;
+}
+
+
+
+
+
+@media only screen and (max-width: 1080px), only screen and (max-device-width:1080px) {
+	 html,body {
+	 font-size:16.875px;
+	 }
+ }
+ @media only screen and (max-width: 960px), only screen and (max-device-width:960px) {
+	 html,body {
+	 font-size:15px;
+	 }
+ }
+ @media only screen and (max-width: 800px), only screen and (max-device-width:800px) {
+	 html,body {
+	 font-size:12.5px;
+	 }
+ }
+ @media only screen and (max-width: 720px), only screen and (max-device-width:720px) {
+	 html,body {
+	 font-size:11.25px;
+	 }
+ }
+ @media only screen and (max-width: 640px), only screen and (max-device-width:640px) {
+	 html,body {
+	 font-size:10px;
+	 }
+ }
+ @media only screen and (max-width: 600px), only screen and (max-device-width:600px) {
+	 html,body {
+	 font-size:9.375px;
+	 }
+ }
+ @media only screen and (max-width: 540px), only screen and (max-device-width:540px) {
+	 html,body {
+	 font-size:8.4375px;
+	 }
+ }
+ @media only screen and (max-width: 480px), only screen and (max-device-width:480px) {
+	 html,body {
+	 font-size:7.5px;
+	 }
+ }
+ @media only screen and (max-width: 414px), only screen and (max-device-width:414px) {
+	 html,body {
+	 font-size:6.46875px;
+	 }
+ }
+ @media only screen and (max-width: 400px), only screen and (max-device-width:400px) {
+	 html,body {
+	 font-size:6.25px;
+	 }
+ }
+ @media only screen and (max-width: 375px), only screen and (max-device-width:375px) {
+	 html,body {
+	 font-size:5.859375px;
+	 }
+ }
+ @media only screen and (max-width: 360px), only screen and (max-device-width:360px) {
+	 html,body {
+	 font-size:5.625px;
+	 }
+ }
+ @media only screen and (max-width: 320px), only screen and (max-device-width:320px) {
+	 html,body {
+	 font-size:5px;
+	 }
+ }
+ @media only screen and (max-width: 240px), only screen and (max-device-width:240px) {
+	 html,body {
+	 font-size:3.75px;
+	 }
+}
